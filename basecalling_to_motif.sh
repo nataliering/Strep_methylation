@@ -17,7 +17,7 @@ OUTPUT="output_prefix"
 # Run basecalling with Dorado. Will check if you have a GPU, otherwise will default to CPU.
 $DORADO_PATH/dorado basecaller sup,6mA,4mC_5mC $POD5_FOLDER --device auto --recursive --kit-name SQK-RBK114-24  > $OUTPUT.bam
 
-conda activate basecalling_to_motifs
+conda activate basecalling_to_motif
 
 # Convert bam to fastq
 samtools fastq $OUTPUT.bam > $OUTPUT.fastq

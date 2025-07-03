@@ -12,7 +12,7 @@
 
 3. Open basecalling_to_motif.sh and edit necessary paths and file names (noted in the script by "# CHANGE")
 
-4. Make basecalling_to_motif.sh executable
+4. Make basecalling_to_motif.sh executable                                                                                                                                    
 `chmod 700 basecalling_to_motif.sh`                                                                                                                                                                                                                                                                
 
 6. Run basecalling_to_motif.sh!                                                                                                                                                                                                                         

@@ -10,7 +10,10 @@
 `cd Strep_methylation`                                                                                                                                                                                                                       
 `mamba env create -f basecalling_to_motif.yml`                                                                                                                                                                                            
 
-3. Open basecalling_to_motif.sh and edit necessary paths and file names (noted in the script by "# CHANGE")                                                                                                                                          
+3. Open basecalling_to_motif.sh and edit necessary paths and file names (noted in the script by "# CHANGE")
 
-4. Run basecalling_to_motif.sh!                                                                                                                                                                                                                         
+4. Make basecalling_to_motif.sh executable
+`chmod 700 basecalling_to_motif.sh`                                                                                                                                                                                                                                                                
+
+6. Run basecalling_to_motif.sh!                                                                                                                                                                                                                         
 `/path/to/Strep_methylation/basecalling_to_motif.sh`                                                                                                                                                                                                                  

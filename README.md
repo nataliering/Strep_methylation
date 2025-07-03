@@ -1,8 +1,16 @@
 # Data processing pipeline to go from raw (demultiplexed) pod5s to motif discovery
 
 ## How to use 
-1. Download and untar Dorado v0.9.6
+1. Download and untar Dorado v0.9.6                                                                                                                                                                                                                                        
 `wget https://cdn.oxfordnanoportal.com/software/analysis/dorado-0.9.6-linux-x64.tar.gz`                                                                                    
+`tar -zxvf dorado-0.9.6-linux-x64.tar.gz`                                                                                                                                                                                                                                          
 
+2. Download and install our Conda environment from basecalling_to_motif.yml
+`git clone https://github.com/nataliering/Strep_methylation.git`
+`cd Strep_methylation`
+`mamba env create -f basecalling_to_motif.yml`
 
-First, install our conda environment from basecalling_to_motifs.yml
+3. Open basecalling_to_motif.sh and edit necessary paths and file names (noted in the script by "# CHANGE")
+
+4. Run basecalling_to_motif.sh!
+`/path/to/Strep_methylation/basecalling_to_motif.sh`

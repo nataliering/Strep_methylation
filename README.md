@@ -1,5 +1,5 @@
 
-<img src="https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png" width="200" title="Pipeline logo" alt="Pipeline logo"/>
+<img src="https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png" width="300" class="center" title="Pipeline logo" alt="Pipeline logo"/>
 
 # Fom pod5s to motif discovery
 

@@ -1,5 +1,5 @@
 
-![alt text]([https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png] "Pipeline logo")
+![alt text](https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png "Pipeline logo")
 
 # Data processing pipeline to go from raw (demultiplexed) pod5s to motif discovery
 

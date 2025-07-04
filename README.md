@@ -1,7 +1,7 @@
 
-![](https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png | width=100)
+<img src="https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png" width="200" title="Pipeline logo" alt="Pipeline logo"/>
 
-# Data processing pipeline to go from raw (demultiplexed) pod5s to motif discovery
+# Fom pod5s to motif discovery
 
 ## How to use 
 1. Download and untar Dorado v0.9.6                                                                                                                                                                                                                                        

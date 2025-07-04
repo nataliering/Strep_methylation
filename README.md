@@ -1,7 +1,7 @@
 
-<img src="https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png" width="300" class="center" title="Pipeline logo" alt="Pipeline logo"/>
+<img src="https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png" width="600" class="center" title="Pipeline logo" alt="Pipeline logo"/>
 
-# Fom pod5s to motif discovery
+# From pod5s to motif discovery
 
 ## How to use 
 1. Download and untar Dorado v0.9.6                                                                                                                                                                                                                                        

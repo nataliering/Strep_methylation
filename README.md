@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png" width="300" class="center" title="Pipeline logo" alt="Pipeline logo"/>
+  <img src="https://github.com/nataliering/Strep_methylation/blob/main/strep_methylation_logo.png" width="200" class="center" title="Pipeline logo" alt="Pipeline logo"/>
 </p>
 
 # From pod5s to motif discovery

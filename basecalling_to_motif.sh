@@ -2,16 +2,17 @@
 
 ## SCRIPT ASSUMES YOU HAVE INSTALLED OUR CONDA ENVIRONMENT FROM "basecalling_to_motif.yml" AND HAVE YOUR OWN VERSION OF DORADO INSTALLED ##
 
-# Change this to wherever your conda.sh initialization file is
+# CHANGE this to wherever your conda.sh initialization file is
 source /path/to/profile.d/conda.sh
 
-# Change this to the name of the folder that has your pod5s in it. Script assumes your pod5 folder only has one sample/barcode in it
+# CHANGE this to the name of the folder that has your pod5s in it. Script assumes your pod5 folder only has one sample/barcode in it
 POD5_FOLDER="name_of_input_folder"
 
-# Change this to wherever you untarred Dorado (change the version number to whatever you have).
+# CHANGE this to wherever you untarred Dorado (change the version number to whatever you have).
+# In testing, Dorado v0.9.6 worked fine, but v1.0.2 ultimately led to a .bed file being produced that nanomotif didn't like. I haven't tested other Dorado versions.
 DORADO_PATH="/path/to/dorado-x.x.x-linux-x64/bin/"
 
-# Change this to whatever you want all your output files to be prefixed with
+# CHANGE this to whatever you want all your output files to be prefixed with
 OUTPUT="output_prefix"
 
 # Run basecalling with Dorado. Will check if you have a GPU, otherwise will default to CPU.

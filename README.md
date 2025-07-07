@@ -24,3 +24,5 @@
 
 6. Run basecalling_to_motif.sh!                                                                                                                                                                                                                         
 `/path/to/Strep_methylation/basecalling_to_motif.sh`                                                                                                                                                                                                                  
+
+7. Your motifs will be in the output.nanomotif folder, in "bin_motifs.tsv"
